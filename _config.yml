@@ -1,5 +1,5 @@
 # main text of home
-name: John Doe
+name: Salim Rahmani
 bio: A Man who travels the world eating noodles
 
 # twitter summary info
@@ -13,8 +13,8 @@ picture: assets/images/profile.jpg
 # If you want to include your resume, set to true
 # and specify source (external or local).
 resume: true
-resume-external: true
-resume-url: https://google.com/?q=my+resume
+resume-external: false
+resume-url: assets/files/resume.pdf
 
 url: https://koppl.in/indigo
 # your url: http://USERNAME.github.io
@@ -34,25 +34,33 @@ disqus:
   categories: [blog, project] # only show disqus for posts that have these categories
 
 # if you don't have any of social below, comment the line
-facebook: myfacebook
-twitter: mytwitter
+#facebook: salimrahmanii
+twitter: salimrahmanii
 # google: mygoogle
 # instagram: myinstagram
 # pinterest: mypinterest
-# linkedin: mylinkedin
+linkedin: salimrahmani
 # youtube: myyoutube
 # spotify: myspotify
-github: mygithub
+github: salimrahmani
 # lastfm: mylastfm
-# stackoverflow: 7044681/mystackoverflow
+stackoverflow: 4586147/salim-rahmani
 # quora: userquora
 # reddit: username
-medium: medium
+# medium: salimrahmani
 # vimeo: myvimeo
 # lanyrd: mylanyrd
-email: myemail@gmail.com
+goodreads: salimrahmani
+email: salimrahmani@outlook.com
+practical-dev: salimrahmani
 
 authors:
+    salimrahmani:
+        name: Salim Rahmani
+        bio: A Man who travels the world eating noodles
+        external-image: false
+        picture: assets/images/profile.jpg
+        twitter: salimrahmanii
     johndoe:
         name: John Doe
         bio: A Man who travels the world eating noodles
