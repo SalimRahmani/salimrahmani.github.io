@@ -20,25 +20,15 @@ proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
 
 <h2>Skills</h2>
 
-<ul class="skill-list">
-	<li>C#/.Net Framework</li>
-	<li>Java/Spring</li>
-	<li>Python/Django</li>
-	<li>Javascript (Design Patterns, Testes)</li>
-	<li>NodeJS</li>
-	<li>AngularJS - ReactJS</li>
-	<li>Grunt - Gulp - Yeoman</li>
-	<li>HTML - Jade - Haml - Erb</li>
-	<li>Responsive (Mobile First)</li>
-	<li>CSS (Stylus, Sass, Less)</li>
-	<li>Css Frameworks (Bootstrap, Foundation)</li>
-	<li>MySQL - PostgreSQL - MongoDB - MS SQL Server</li>
-	<li>Git</li>
-	<li>Ansible</li>
-	<li>Jenkins</li>
-	<li>Agile Methodologies (e.g. Scrum)</li>
-	<li>TDD/BDD e Continuous Integration</li>
-</ul>
+{% for skill in site.data.skills %}
+<div class="skillbar clearfix " data-percent="{{ skill.skillbar-percent }}">
+	<div class="skillbar-title" style="background: {{ skill.skillbar-title-background }};"><span>{{ skill.title }}</span></div>
+	<div class="skillbar-bar" style="background: {{ skill.skillbar-background }};"></div>
+	<div class="skill-bar-percent">{{ skill.skillbar-percent }}</div>
+</div>
+{% endfor %}
+
+<script src="{{ site.url }}/assets/js/skillbar.js"></script>
 
 <h2>Projects</h2>
 
