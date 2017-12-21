@@ -1,6 +1,6 @@
 # main text of home
 name: Salim Rahmani
-bio: A Man who travels the world smashing the clichés
+bio: A man who travels the world smashing the clichés
 
 # twitter summary info
 description: A blog about technology and stuff related
@@ -57,7 +57,7 @@ practical-dev: salimrahmani
 authors:
     salimrahmani:
         name: Salim Rahmani
-        bio: A Man who travels the world smashing the clichés
+        bio: A man who travels the world smashing the clichés
         external-image: false
         picture: assets/images/profile.jpg
         twitter: salimrahmanii
