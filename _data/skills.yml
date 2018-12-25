@@ -1,12 +1,12 @@
-- title: C#
-  skillbar-title-background: '#541d66'
-  skillbar-background: '#68217a'
-  skillbar-percent: 80%
-
 - title: Java
   skillbar-title-background: '#2c3e50'
   skillbar-background: '#2c3e50'
-  skillbar-percent: 65%
+  skillbar-percent: 75%
+
+- title: C#
+  skillbar-title-background: '#541d66'
+  skillbar-background: '#68217a'
+  skillbar-percent: 70%
 
 - title: Python
   skillbar-title-background: '#2980b9'
