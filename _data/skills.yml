@@ -3,6 +3,11 @@
   skillbar-background: '#2c3e50'
   skillbar-percent: 75%
 
+- title: JavaScript
+  skillbar-title-background: '#ffd538'
+  skillbar-background: '#ffe066'
+  skillbar-percent: 60%
+
 - title: C#
   skillbar-title-background: '#541d66'
   skillbar-background: '#68217a'
@@ -11,12 +16,7 @@
 - title: Python
   skillbar-title-background: '#2980b9'
   skillbar-background: '#3498db'
-  skillbar-percent: 65%
-
-- title: JavaScript
-  skillbar-title-background: '#ffd538'
-  skillbar-background: '#ffe066'
-  skillbar-percent: 45%
+  skillbar-percent: 60%
 
 - title: Databases
   skillbar-title-background: '#46465e'
@@ -32,39 +32,3 @@
   skillbar-title-background: '#f34f29'
   skillbar-background: '#e67e22'
   skillbar-percent: 75%
-
-
-# - title: HTML 5
-#  skillbar-title-background: '#d35400'
-#  skillbar-background: '#e67e22'
-#  skillbar-percent: 20%
-
-# - title: CSS 3
-#  skillbar-title-background: '#2980b9'
-#  skillbar-background: '#3498db'
-#  skillbar-percent: 25%
-
-# - title: jQuery
-#  skillbar-title-background: '#2c3e50'
-#  skillbar-background: '#2c3e50'
-#  skillbar-percent: 50%
-
-# - title: PHP
-#  skillbar-title-background: '#46465e'
-#  skillbar-background: '#5a68a5'
-#  skillbar-percent: 40%
-
-# - title: WordPress
-#  skillbar-title-background: '#333333'
-#  skillbar-background: '#525252'
-#  skillbar-percent: 75%
-
-# - title: SEO
-#  skillbar-title-background: '#27ae60'
-#  skillbar-background: '#2ecc71'
-#  skillbar-percent: 100%
-
-# - title: Photoshop
-#  skillbar-title-background: '#124e8c'
-#  skillbar-background: '#4288d0'
-#  skillbar-percent: 70%
