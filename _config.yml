@@ -2,9 +2,6 @@
 name: Salim Rahmani
 bio: A man who travels the world smashing the clichés
 
-# twitter summary info
-description: A blog about technology and stuff related
-
 # if it's an external image, update below for true
 # better with square images
 external-image: false
@@ -30,15 +27,14 @@ analytics-google: 'UA-111214847-1'
 # if you don't want comments in your posts, leave categories empty
 disqus:
   shortname: salimrahmani # enter this from your disqus account
-  categories: [blog] # only show disqus for posts that have these categories
+  categories: [] # only show disqus for posts that have these categories
 
 # if you don't have any of social below, comment the line
-twitter: salimrahmanii
 linkedin: salimrahmani
 github: salimrahmani
+twitter: salimrahmanii
 goodreads: salimrahmani
 email: salimrahmani@outlook.com
-practical-dev: salimrahmani
 
 authors:
     salimrahmani:
