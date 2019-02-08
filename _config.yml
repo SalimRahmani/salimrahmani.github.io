@@ -17,7 +17,6 @@ resume-external: false
 resume-url: assets/files/resume.pdf
 
 url: https://salimrahmani.github.io
-# your url: http://USERNAME.github.io
 
 permalink: /:title/
 
@@ -31,25 +30,12 @@ analytics-google: 'UA-111214847-1'
 # if you don't want comments in your posts, leave categories empty
 disqus:
   shortname: salimrahmani # enter this from your disqus account
-  categories: [blog, project] # only show disqus for posts that have these categories
+  categories: [blog] # only show disqus for posts that have these categories
 
 # if you don't have any of social below, comment the line
-#facebook: salimrahmanii
 twitter: salimrahmanii
-# google: mygoogle
-# instagram: myinstagram
-# pinterest: mypinterest
 linkedin: salimrahmani
-# youtube: myyoutube
-# spotify: myspotify
 github: salimrahmani
-# lastfm: mylastfm
-stackoverflow: 4586147/salim-rahmani
-# quora: userquora
-# reddit: username
-# medium: salimrahmani
-# vimeo: myvimeo
-# lanyrd: mylanyrd
 goodreads: salimrahmani
 email: salimrahmani@outlook.com
 practical-dev: salimrahmani
@@ -76,22 +62,22 @@ projects: true
 
 # if you don't need "about" or "blog", comment them out below
 about: true
-blog: true
+#blog: true
 
 # do you want to show the "read time" of the posts?
-read-time: true
+#read-time: true
 
 # do you want to show the "tags" inside the posts?
-show-tags: true
+#show-tags: true
 
 # related posts inside a post?
-related: true
+#related: true
 
 # Display links for next and previous posts for the specified categories
-post-advance-links: [blog]
+#post-advance-links: [blog]
 
 # show author block at the end of a post ?
-show-author: true
+#show-author: true
 
 # do you want some animations?
 animation: true
