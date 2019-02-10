@@ -1,6 +1,6 @@
 ---
 title: About
-layout: page
+layout: about
 ---
 ![Profile Image]({{ site.url }}/{{ site.picture }})
 
@@ -18,14 +18,6 @@ consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
 cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
 proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
 
-<h2>Skills</h2>
+{% include skills.html %}
 
-{% for skill in site.data.skills %}
-<div class="skillbar clearfix " data-percent="{{ skill.skillbar-percent }}">
-	<div class="skillbar-title" style="background: {{ skill.skillbar-title-background }};"><span>{{ skill.title }}</span></div>
-	<div class="skillbar-bar" style="background: {{ skill.skillbar-background }};"></div>
-	<div class="skill-bar-percent">{{ skill.skillbar-percent }}</div>
-</div>
-{% endfor %}
-
-<script src="{{ site.url }}/assets/js/skillbar.js"></script>
+{% include timeline.html %}

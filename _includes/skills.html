@@ -1,0 +1,11 @@
+<h2>Skills</h2>
+
+{% for skill in site.data.skills %}
+<div class="skillbar clearfix " data-percent="{{ skill.skillbar-percent }}">
+    <div class="skillbar-title" style="background: {{ skill.skillbar-title-background }};"><span>{{ skill.title }}</span></div>
+    <div class="skillbar-bar" style="background: {{ skill.skillbar-background }};"></div>
+    <div class="skill-bar-percent">{{ skill.skillbar-percent }}</div>
+</div>
+{% endfor %}
+
+<script src="{{ site.url }}/assets/js/skillbar.js"></script>
