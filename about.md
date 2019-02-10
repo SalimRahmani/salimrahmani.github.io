@@ -29,11 +29,3 @@ proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
 {% endfor %}
 
 <script src="{{ site.url }}/assets/js/skillbar.js"></script>
-
-<h2>Projects</h2>
-
-<ul>
-	<li><a href="https://github.com/{{site.github}}/Netflow2Syslog">Netflow2Syslog</a></li>
-	<li><a href="https://github.com/{{site.github}}/RhythmUnity">Rhythm Unity</a></li>
-	<li><a href="https://github.com/{{site.github}}/CoffeeMachine">Coffee Machine</a></li>
-</ul>
