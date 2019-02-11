@@ -17,6 +17,10 @@ url: https://salimrahmani.github.io
 
 permalink: /:title/
 
+
+collections:
+  timeline:
+
 # To enable google analytics, supply your token below
 analytics-google: 'UA-111214847-1'
 
