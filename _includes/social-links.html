@@ -16,6 +16,12 @@
             <svg class="icon icon-twitter"><use href="#icon-twitter"></use></svg>
         </a>
    {% endif %}
+
+   {% if site.medium %}
+        <a class="link" href="https://medium.com/@{{ site.medium }}" target="_blank">
+            <svg class="icon icon-medium"><use href="#icon-medium"></use></svg>
+        </a>
+   {% endif %}
     
    {% if site.goodreads %}
         <a class="link" href="https://goodreads.com/{{ site.goodreads }}" target="_blank">

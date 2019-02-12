@@ -17,7 +17,6 @@ url: https://salimrahmani.github.io
 
 permalink: /:title/
 
-
 collections:
   timeline:
 
@@ -39,6 +38,7 @@ github: salimrahmani
 twitter: salimrahmanii
 goodreads: salimrahmani
 email: salimrahmani@outlook.com
+medium: salimrahmani
 
 authors:
     salimrahmani:
